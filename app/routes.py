@@ -14,6 +14,6 @@ def menu():
         body = { "today_special": today.name }
         status = 200
     else:
-        body = { "error": "Sorry, the service is not available today." }
+        body = { "error": "Sorry, the service is not available today.This is updated by Sathu" }
         status = 404
     return jsonify(body), status
